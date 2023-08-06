@@ -61,4 +61,3 @@ npm run preview
 
 This project is licensed under the [Private License](https://choosealicense.com/licenses/).
 
-```
