@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Necare - Care & Health</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .preloader {
+        background-color: #f1f1f1;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .preloader > img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div id="preloadentity" class="preloader">
+        <img src="/assets/loading.gif" />
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

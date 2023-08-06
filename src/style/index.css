@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Poppins:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.bg-radial-gradient {
+  background: radial-gradient(circle, #02e1ff 0%, #4164b7 100%);
+}
