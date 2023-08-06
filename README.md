@@ -1,4 +1,3 @@
-```
 # necare
 
 [![Version](https://img.shields.io/badge/version-0.0.0-blue.svg)](https://semver.org)
