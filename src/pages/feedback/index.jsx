@@ -91,7 +91,7 @@ function FeedBack() {
               console.log(val);
             }}
           >
-            {(props) => {
+            {(_) => {
               return (
                 <div className="px-8 py-8 w-full md:w-[90%] bg-white ">
                   <Form className="h-full w-full ">
