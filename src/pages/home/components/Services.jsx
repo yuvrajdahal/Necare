@@ -7,6 +7,7 @@ import { GiHospitalCross } from "react-icons/gi";
 import { TbNurse } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+import { images } from "../../../data/services";
 
 function ServicesSection() {
   return (

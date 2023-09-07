@@ -1,5 +1,6 @@
-import { images, listOfServices } from "../../data/services";
+import { images, listOfServices } from "../../../data/services";
 import { motion } from "framer-motion";
+import ServiceCard from "./ServiceCard";
 
 export default function ServicesBody() {
   return (
