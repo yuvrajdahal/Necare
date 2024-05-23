@@ -3,7 +3,7 @@ import { classNames } from "../../../lib/util";
 import { motion } from "framer-motion";
 const colors = [
   "bg-red-400",
-  "bg-blue-10",
+  "bg-blue-500",
   "bg-yellow-400",
   "bg-green-600",
   "bg-indigo-700",

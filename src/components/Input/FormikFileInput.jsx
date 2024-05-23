@@ -30,7 +30,7 @@ const FormikFileInput = ({ className, labelName, ...props }) => {
           onBlur={field.onBlur}
         />
         <div className="flex flex-col gap-2 items-center justify-center w-full h-full rounded-md  mt-2 px-2 py-2 cursor-pointer ">
-          <FiUpload size={18} className="mr-2 text-blue-10" />
+          <FiUpload size={18} className="mr-2 text-blue-500" />
           <span>{field.value ? field.value.name : labelName}</span>
           <span className="text-sm text-gray-400">
             Drag and drop files here

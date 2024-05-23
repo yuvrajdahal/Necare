@@ -7,7 +7,6 @@ const Carosuel = ({
   showDots = true,
 }) => {
   const [activeIndex, setIndex] = useState(index);
-  const [isPaused, setPaused] = useState(false);
 
   let translate = `-${activeIndex * 100}%`;
 
@@ -53,7 +52,7 @@ const Carosuel = ({
               <div
                 className={classNames(
                   ` h-4 w-4 rounded-full opacity-50 cursor-pointer`,
-                  index === activeIndex ? "bg-blue-10 " : "bg-white"
+                  index === activeIndex ? "bg-blue-500 " : "bg-white"
                 )}
                 onClick={() => updateIndex(index)}
               ></div>

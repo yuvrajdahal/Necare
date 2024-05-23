@@ -91,7 +91,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="h-[10vh] bg-blue-10">
+      <div className="h-[10vh] bg-blue-500">
         <div className="w-full text-white py-4 font-light flex justify-center items-center">
           Copyright © 2023 Necare
         </div>

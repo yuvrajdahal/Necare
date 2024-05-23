@@ -85,12 +85,12 @@ function NavVersion1() {
                     aria-controls={"mobile-menu"}
                     aria-expanded={"false"}
                     className={classNames(
-                      "cursor-pointer lg:text-xl font-medium hover:text-blue-10 ",
+                      "cursor-pointer lg:text-xl font-medium hover:text-blue-500 ",
                       window.location.pathname === link.href
-                        ? "transition-all duration-300 ease-in-out text-[17px] text-blue-10 font-semibold underline underline-offset-[42px] decoration-blue-10 decoration-4"
+                        ? "transition-all duration-300 ease-in-out text-[17px] text-blue-500 font-semibold underline underline-offset-[42px] decoration-blue-10 decoration-4"
                         : "/" + window.location.pathname.split("/")[1] ===
                           link.href
-                        ? "transition-all duration-300 ease-in-out text-[17px] text-blue-10 font-semibold underline underline-offset-[42px] decoration-blue-10 decoration-4"
+                        ? "transition-all duration-300 ease-in-out text-[17px] text-blue-500 font-semibold underline underline-offset-[42px] decoration-blue-10 decoration-4"
                         : "text-slate-500 hover:underline hover:underline-offset-[42px] hover:decoration-blue-10 hover:decoration-4"
                     )}
                   >
@@ -110,7 +110,7 @@ function NavVersion1() {
                   onClick={() => setOpen((prev) => !prev)}
                   className={" block md:hidden "}
                 >
-                  <BiMenu className="w-10 h-10 text-blue-10 z-50" />
+                  <BiMenu className="w-10 h-10 text-blue-500 z-50" />
                 </Disclosure.Button>
               </div>
             </div>
@@ -132,7 +132,7 @@ function NavVersion1() {
                       <NavLink
                         to={item.href}
                         className={classNames(
-                          "text-neutral-500 active:bg-blue-10 active:text-white",
+                          "text-neutral-500 active:bg-blue-500 active:text-white",
                           "block px-3 py-2 rounded-md text-base font-medium outline-blue-10"
                         )}
                       >
@@ -147,7 +147,7 @@ function NavVersion1() {
                   setShowAboutMenu((prev) => !prev);
                 }}
                 className={classNames(
-                  "text-neutral-500 active:bg-blue-10 active:text-white flex gap-2 justify-between items-center",
+                  "text-neutral-500 active:bg-blue-500 active:text-white flex gap-2 justify-between items-center",
                   "block px-3 py-2 rounded-md text-base font-medium outline-blue-10"
                 )}
               >
@@ -171,7 +171,7 @@ function NavVersion1() {
                   setShowForMobile((prev) => !prev);
                 }}
                 className={classNames(
-                  "text-neutral-500 active:bg-blue-10 active:text-white flex gap-2 justify-between items-center",
+                  "text-neutral-500 active:bg-blue-500 active:text-white flex gap-2 justify-between items-center",
                   "block px-3 py-2 rounded-md text-base font-medium outline-blue-10"
                 )}
               >
@@ -191,7 +191,7 @@ function NavVersion1() {
               )}
               <div
                 className={classNames(
-                  "bg-blue-10 text-white",
+                  "bg-blue-500 text-white",
                   "block px-3 py-2 mt-2 rounded-md text-base font-medium outline-blue-10 flex justify-between items-center"
                 )}
                 onClick={() => {
@@ -275,7 +275,7 @@ function ShowMenu({ array, conditions, toggle = false }) {
                   to={conditions(i, child)}
                   className={`${
                     active
-                      ? "bg-blue-10 text-white  border-b"
+                      ? "bg-blue-500 text-white  border-b"
                       : "text-slate-500"
                   } block px-4 py-2 text-sm ${
                     array.length - 1 !== i && "border-b border-slate-200"
@@ -359,7 +359,7 @@ const NavLinkWithDropdown = ({ navLink, i }) => {
                             .join("-")
                             .toLowerCase()}`}
                           className={`${
-                            active ? "bg-blue-10 text-white" : "text-slate-500"
+                            active ? "bg-blue-500 text-white" : "text-slate-500"
                           } block px-4 py-2 text-sm  border-slate-200 font-light ${
                             navLink.length - 1 === dropIndex ? "" : "border-b"
                           }`}

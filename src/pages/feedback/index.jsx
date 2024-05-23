@@ -67,7 +67,7 @@ function FeedBack() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
-          className="text-3xl text-blue-10 font-bold uppercase"
+          className="text-3xl text-blue-500 font-bold uppercase"
         >
           Talk To Us
         </motion.div>
@@ -156,7 +156,7 @@ function FeedBack() {
                     </div>
                     <button
                       type="submit"
-                      className="w-full bg-blue-10 text-white mt-4 px-2 py-2 md:w-[150px]"
+                      className="w-full bg-blue-500 text-white mt-4 px-2 py-2 md:w-[150px]"
                     >
                       Submit
                     </button>

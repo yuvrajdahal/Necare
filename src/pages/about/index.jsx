@@ -99,7 +99,7 @@ function About() {
 
                 {/*  tesamonial section */}
                 <div className="w-full  w-full lg:w-[60%] xl:w-[50%] grid grid-cols-2 ">
-                  <div className="h-full md:h-[200px] w-full bg-blue-10 px-4 pt-6 pb-4">
+                  <div className="h-full md:h-[200px] w-full bg-blue-500 px-4 pt-6 pb-4">
                     <div className="flex gap-1 justify-start font-semibold items-end text-white uppercase ">
                       Stevie
                       <div className="flex gap-4">
@@ -112,13 +112,13 @@ function About() {
                       he lacks vision.”
                     </div>
                   </div>
-                  <div className="h-full md:h-[200px] z-50 w-full bg-blue-10 pb-4 bg-[url('/assets/person3.jpg')] bg-center md:bg-top  bg-cover backdrop-brightness-40 relative">
+                  <div className="h-full md:h-[200px] z-50 w-full bg-blue-500 pb-4 bg-[url('/assets/person3.jpg')] bg-center md:bg-top  bg-cover backdrop-brightness-40 relative">
                     <div className="w-full h-full bg-red absolute flex flex-col justify-center items-center gap-2  backdrop-brightness-75	"></div>
                   </div>
-                  <div className="h-full md:h-[200px] w-full  bg-blue-10 pb-4 bg-[url('/assets/person1.jpg')] bg-top bg-cover bg-no-repeat bg-cover relative">
+                  <div className="h-full md:h-[200px] w-full  bg-blue-500 pb-4 bg-[url('/assets/person1.jpg')] bg-top bg-cover bg-no-repeat bg-cover relative">
                     <div className="w-full h-full bg-red absolute flex flex-col justify-center items-center gap-2  backdrop-brightness-75	"></div>
                   </div>
-                  <div className="h-full md:h-[200px] w-full   px-4 pt-6 pb-4 bg-blue-10">
+                  <div className="h-full md:h-[200px] w-full   px-4 pt-6 pb-4 bg-blue-500">
                     <div className="flex gap-1 justify-start font-semibold items-end text-white uppercase ">
                       Nido
                       <div className="flex gap-4">
@@ -146,67 +146,66 @@ function About() {
                 </div>
                 <div className="flex flex-col justify-start items-start pt-8 pb-4 gap-8 pl-4">
                   <div className="flex justify-center font-poppins items-center gap-6">
-                    <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-blue-10">
+                    <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-blue-500">
                       <div className="text-xl font-bold text-white -rotate-45">
                         N
                       </div>
                     </div>
                     <div className="text-white font-bold text-xl">
-                     Nurturing - Cultivating Compassionate Care
+                      Nurturing - Cultivating Compassionate Care
                     </div>
                   </div>
 
                   <div className="flex justify-center font-poppins items-center gap-6">
                     <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-white">
-                      <div className="text-xl font-bold text-blue-10 -rotate-45">
+                      <div className="text-xl font-bold text-blue-500 -rotate-45">
                         E
                       </div>
                     </div>
                     <div className="text-white font-bold text-xl">
-                    Empathy - Understanding Hearts
+                      Empathy - Understanding Hearts
                     </div>
                   </div>
                   <div className="flex justify-center font-poppins items-center gap-6 ">
                     <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-white">
-                      <div className="text-xl font-bold text-blue-10 -rotate-45">
+                      <div className="text-xl font-bold text-blue-500 -rotate-45">
                         C
                       </div>
                     </div>
                     <div className="text-white font-bold text-xl">
-                    Compassion - Kindness in Action
+                      Compassion - Kindness in Action
                     </div>
                   </div>
                   <div className="flex justify-center font-poppins items-center gap-6 ">
                     <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-white">
-                      <div className="text-xl font-bold text-blue-10 -rotate-45">
+                      <div className="text-xl font-bold text-blue-500 -rotate-45">
                         A
                       </div>
                     </div>
                     <div className="text-white font-bold text-xl">
-                    Advocacy - Amplifying Voices
+                      Advocacy - Amplifying Voices
                     </div>
                   </div>
                   <div className="flex justify-center font-poppins items-center gap-6 ">
-                    <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-blue-10">
+                    <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-blue-500">
                       <div className="text-xl font-bold text-white -rotate-45">
                         R
                       </div>
                     </div>
                     <div className="text-white font-bold text-xl">
-                    Respect - Honoring Every Soul
+                      Respect - Honoring Every Soul
                     </div>
                   </div>
                   <div className="flex justify-center font-poppins items-center gap-6 ">
-                    <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-blue-10">
+                    <div className="h-[50px] w-[50px] rotate-45 flex justify-center items-center bg-blue-500">
                       <div className="text-xl font-bold text-white -rotate-45">
                         E
                       </div>
                     </div>
                     <div className="text-white font-bold text-xl">
-                    Excellence - Pursuit of Perfection
+                      Excellence - Pursuit of Perfection
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -256,10 +255,10 @@ function QouteSection() {
             A Few Words
           </div>
           <div className="flex items-end justify-center md:justify-start gap-2  ">
-            <div className="font-bold  pt-4 text-3xl lg:text-5xl font-poppins text-blue-10">
+            <div className="font-bold  pt-4 text-3xl lg:text-5xl font-poppins text-blue-500">
               OUR VISON
             </div>
-            <div className="w-12 mb-1 h-[4px] bg-blue-10 hidden md:block"></div>
+            <div className="w-12 mb-1 h-[4px] bg-blue-500 hidden md:block"></div>
           </div>
           <div className="font-charmoman  text-3xl sm:text-4xl lg:text-[2.5rem] text-center md:text-left">
             <div className="leading-loose">
@@ -302,11 +301,11 @@ function AboutNumberSection() {
               }
             >
               <div className="border rounded-full">
-                <div className=" text-blue-10 text-[35px] px-2 py-2 font-bold flex justify-center items-center">
+                <div className=" text-blue-500 text-[35px] px-2 py-2 font-bold flex justify-center items-center">
                   <Icon />
                 </div>
               </div>
-              <div className="text-4xl font-bold text-blue-10 text-center">
+              <div className="text-4xl font-bold text-blue-500 text-center">
                 {achieve.am}
               </div>
               <div className="text-lg text-neutral-500 text-center font-light uppercase">

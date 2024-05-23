@@ -68,7 +68,7 @@ function FeedBack() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
-          className="text-3xl text-blue-10 font-bold uppercase"
+          className="text-3xl text-blue-500 font-bold uppercase"
         >
           Carrers
         </motion.div>
@@ -80,11 +80,11 @@ function FeedBack() {
           transition={{ duration: 1.2 }}
           className="mt-4 text-justify md:text-center text-gray-700 px-4"
         >
-          Necare provides high-quality care and support services to people
-          with disabilities. We offer personalized programs and value our
-          employees, providing a supportive and inclusive work environment.
-          Visit our website to view current job openings and join our mission of
-          helping others live with dignity and independence.
+          Necare provides high-quality care and support services to people with
+          disabilities. We offer personalized programs and value our employees,
+          providing a supportive and inclusive work environment. Visit our
+          website to view current job openings and join our mission of helping
+          others live with dignity and independence.
         </motion.div>
         <div className="w-full h-full flex flex-col jsutify-center items-center mt-4">
           <Formik
@@ -184,7 +184,7 @@ function FeedBack() {
                     </div>
                     <button
                       type="submit"
-                      className="w-full bg-blue-10 text-white mt-4 px-2 py-2 md:w-[150px]"
+                      className="w-full bg-blue-500 text-white mt-4 px-2 py-2 md:w-[150px]"
                     >
                       Submit
                     </button>

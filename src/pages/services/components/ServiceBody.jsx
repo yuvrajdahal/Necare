@@ -21,7 +21,7 @@ export default function ServicesBody() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
-            className="text-3xl text-blue-10 font-bold uppercase"
+            className="text-3xl text-blue-500 font-bold uppercase"
           >
             SERVICES AT NeCare
           </motion.div>

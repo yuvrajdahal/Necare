@@ -34,15 +34,16 @@ function Hero() {
               <div className="flex  flex-col gap-2 text-white font-poppins justify-center items-center font-bold text-3xl lg:text-5xl">
                 <div className="flex flex-col md:flex-row  justify-center items-center gap-2">
                   <div className="flex gap-2 justify-center items-center">
-                    <div className="text-blue-10 flex  ">Responsible</div> Hands
+                    <div className="text-blue-500 flex  ">Responsible</div>{" "}
+                    Hands
                   </div>
                   For Your
                 </div>
                 Loved Ones.
               </div>
               <p className="text-center text-white pt-4 text-lg md:text-xl">
-                Necare is one of the best care providers who <br />{" "}
-                continuously focuses to provide quality care to their
+                Necare is one of the best care providers who <br /> continuously
+                focuses to provide quality care to their
                 <br /> participants.{" "}
               </p>
             </motion.div>

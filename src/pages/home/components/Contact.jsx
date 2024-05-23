@@ -30,18 +30,18 @@ function Contact() {
                 <div className="text-gray-800">Contact Us</div>
                 <div className="hidden md:block w-[25px] h-[3px] bg-gray-400 self-end relative bottom-1.5"></div>
               </div>
-              <div className="text-blue-10  font-semibold text-justify md:text-lg text-left  md:px-6 md:pl-4 uppercase">
+              <div className="text-blue-500  font-semibold text-justify md:text-lg text-left  md:px-6 md:pl-4 uppercase">
                 If you have any questions or queries, please feel free to
                 contact us on the details provided below or alternatively you
                 can complete the online enquiry form and we will get back to you
                 as soon as possible.
               </div>
               <div className="flex items-center gap-4 ">
-                <div className="h-12 w-12 rounded-full shadow-md border text-blue-10 text-2xl flex justify-center items-center cursor-pointer">
+                <div className="h-12 w-12 rounded-full shadow-md border text-blue-500 text-2xl flex justify-center items-center cursor-pointer">
                   <IoLocationSharp />
                 </div>
                 <div className="flex flex-col justify-start items-start text-[17px]">
-                  <div className="text-gray-800 hover:text-blue-10">
+                  <div className="text-gray-800 hover:text-blue-500">
                     Nepal, Kathmandu <br className="block sm:hidden md:block" />
                     Budhanilkantha, 44622
                   </div>
@@ -49,18 +49,18 @@ function Contact() {
               </div>
 
               <div className="flex items-center gap-4 ">
-                <div className="h-12 w-12 rounded-full shadow-md border text-blue-10 text-2xl flex justify-center items-center cursor-pointer">
+                <div className="h-12 w-12 rounded-full shadow-md border text-blue-500 text-2xl flex justify-center items-center cursor-pointer">
                   <MdEmail />
                 </div>
-                <div className="flex flex-col justify-start text-gray-800 hover:text-blue-10 text-lg">
+                <div className="flex flex-col justify-start text-gray-800 hover:text-blue-500 text-lg">
                   <a href={"mailto: info@NeCare.com"}>necare@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-center gap-4 ">
-                <div className="h-12 w-12 rounded-full shadow-md border text-blue-10 text-2xl flex justify-center items-center cursor-pointer">
+                <div className="h-12 w-12 rounded-full shadow-md border text-blue-500 text-2xl flex justify-center items-center cursor-pointer">
                   <IoMdCall />
                 </div>
-                <div className="flex flex-col justify-start text-gray-800 hover:text-blue-10 text-lg">
+                <div className="flex flex-col justify-start text-gray-800 hover:text-blue-500 text-lg">
                   <a>
                     01234569789, 0123654987,
                     <br className="block sm:hidden md:block" /> 0123852141
@@ -68,14 +68,14 @@ function Contact() {
                 </div>
               </div>
               <div className="flex items-center gap-4  ">
-                <div className="h-12 w-12 rounded-full shadow-md border text-blue-10 text-2xl flex justify-center items-center cursor-pointer">
+                <div className="h-12 w-12 rounded-full shadow-md border text-blue-500 text-2xl flex justify-center items-center cursor-pointer">
                   <CgWebsite />
                 </div>
                 <div className="flex flex-col justify-start items-start text-lg ">
                   <a
                     target="_blank"
                     href="https://www.necare.vercel.app"
-                    className="text-gray-800 hover:text-blue-10"
+                    className="text-gray-800 hover:text-blue-500"
                   >
                     www.necare.vercel.app
                   </a>
@@ -144,7 +144,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-10 text-white mt-4 px-2 py-2 md:w-[150px]"
+              className="w-full bg-blue-500 text-white mt-4 px-2 py-2 md:w-[150px]"
             >
               Submit
             </button>

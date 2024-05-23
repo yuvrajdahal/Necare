@@ -56,7 +56,7 @@ function Service() {
       <div className="my-4 w-full flex flex-col-reverse md:flex-row container mx-auto items-center">
         <div className="w-full md:w-[50%] lg:p-12  ">
           <div className="flex flex-col px-6 gap-6 ">
-            <div className="font-semibold text-blue-10 mt-4 text-center md:text-left text-3xl relative lg:-left-8">
+            <div className="font-semibold text-blue-500 mt-4 text-center md:text-left text-3xl relative lg:-left-8">
               Our Mission and Vision
             </div>
             <div className="px-2 md:px-0 text-lg">

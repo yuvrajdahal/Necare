@@ -82,7 +82,7 @@ function Service() {
       >
         <div className="w-full md:w-[50%] lg:p-12  ">
           <div className="flex flex-col px-4 md:items-start gap-6 p-5">
-            <div className="font-semibold text-blue-10 mt-4 text-center md:text-left text-3xl ">
+            <div className="font-semibold text-blue-500 mt-4 text-center md:text-left text-3xl ">
               {hardCheck?.name?.toUpperCase()}
             </div>
             <div className="px-2 md:px-0 text-justify text-lg">

@@ -16,7 +16,7 @@ function ServicesSection() {
         <div className="text-md text-gray-700 font-poppins uppercase">
           We care for your well being
         </div>
-        <div className="text-3xl text-blue-10 font-bold uppercase">
+        <div className="text-3xl text-blue-500 font-bold uppercase">
           SERVICES AT NeCare
         </div>
       </div>
@@ -35,7 +35,7 @@ function ServicesSection() {
       </div>
       <div className="w-full mt-6 flex justify-center">
         <Link to="/services">
-          <span className="flex justify-center items-center gap-4 text-lg text-blue-10 cursor-pointer underline-offset-4 ">
+          <span className="flex justify-center items-center gap-4 text-lg text-blue-500 cursor-pointer underline-offset-4 ">
             Load More <BsArrowRight />{" "}
           </span>
         </Link>
@@ -45,7 +45,7 @@ function ServicesSection() {
 }
 const colors = [
   "bg-red-400",
-  "bg-blue-10",
+  "bg-blue-500",
   "bg-yellow-400",
   "bg-green-600",
   "bg-indigo-700",
